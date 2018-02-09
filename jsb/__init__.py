@@ -10,7 +10,7 @@ from .generic import (
 
 from .schema import draft04, schema, define, ref
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 __all__ = [
     'draft04',

@@ -83,4 +83,4 @@ def ref(id):
     :rtype: dict
     """
 
-    return Dict({'$ref': f'#/definitions/{id}'})
+    return Dict({'$ref': '#/definitions/{0}'.format(id)})
